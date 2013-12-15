@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SeachViewController : UIViewController
+@interface SeachViewController : UIViewController<UITextFieldDelegate>{
+
+    UITextField *_seachTextField;
+}
 
 @end
